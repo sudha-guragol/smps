@@ -20,7 +20,7 @@ public class Global_pricing_Plan_Details {
 	@Id
 	private String smps_Pricing_Id;
 	
-	private Integer tierNumber;
+	private String tierNumber;
 	private Integer pricing_plan_reset_indicator;
 	private String fixed_date_indicator;
 	private LocalDate resetDate;
